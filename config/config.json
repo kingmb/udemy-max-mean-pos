@@ -1,0 +1,20 @@
+{
+  "development": {
+    "username": "YourDBUsername",
+    "password": "YourPW",
+    "database": "YourDB",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": ":memory:"
+  },
+  "production": {
+    "username": "YourDBUsername",
+    "password": "YourPW",
+    "database": "YourDB",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
